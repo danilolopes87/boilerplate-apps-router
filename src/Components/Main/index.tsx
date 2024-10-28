@@ -1,10 +1,11 @@
+import * as S from './style'
 import React from 'react';
 
 const Main: React.FC = () => {
   return (
-    <div>
+    <S.Wrapper>
       <h1>React Avançado</h1>
-    </div>
+    </S.Wrapper>
   );
 };
 

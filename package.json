@@ -7,13 +7,13 @@
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "test:ci": "jest --ci",
     "test:watch": "jest --watch --maxWorkers=25%"
-
   },
   "dependencies": {
     "next": "latest",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "server-only": "^0.0.1"
+    "server-only": "^0.0.1",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",

@@ -1,3 +1,5 @@
+import StyledComponentsRegistry from "./lib/registry";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +7,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <StyledComponentsRegistry>
+          {children}
+        </StyledComponentsRegistry>
+      </body>
     </html>
   );
 }
