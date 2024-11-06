@@ -2,10 +2,12 @@
 
 exports[`renders homepage unchanged 1`] = `
 <div>
-  <div>
+  <main
+    class="sc-blHHSb iKUpBf"
+  >
     <h1>
       React Avançado
     </h1>
-  </div>
+  </main>
 </div>
 `;
